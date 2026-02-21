@@ -23,9 +23,20 @@ csl: apa-no-ampersand.csl
 ```{=latex}
 \section*{Abstract}
 A high-level assessment of the climate impact of the energy sector globally and in Switzerland using an LCA approach
+
+AIs:
+- Perform literature review of existing work on this topic 
+- Investigate if and how satellite data can be employed for this project
 ```
 
 # Introduction
+
+Including Biodiversity in Life Cycle Assessment – State of the Art, Gaps and Research Needs (Winter et al., 2017)
+
+Global biodiversity implications of alternative electrification strategies (van Vliet et al., 2021)
+consolidating large-scale solar and wind development, rather than "dilute" or patchy deployment, could significantly lessen the burden on global biodiversity
+
+Global Biodiversity Score (GBS) - commercial?
 
 # References
 
