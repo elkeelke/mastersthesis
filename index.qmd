@@ -45,13 +45,13 @@ Biodiversity footprinting for the energy sector: A high-level assessment of the 
 
 Including Biodiversity in Life Cycle Assessment – State of the Art, Gaps and Research Needs (Winter et al., 2017)
 
-Global Biodiversity Score (GBS) - commercial?
-
 @Deuber2026 proposes an enhanced hybrid framework to assess the biodiversity footprint of Swiss national consumption by integrating LC-IMPACT endpoint modeling with recent GLAM midpoint indicators. While prior assessments focused narrowly on land use, this approach expands coverage to stressors like global warming and terrestrial acidification. It allows for gradual updates in the methodology once improved GLAM midpoint indicators (e.g. for alien species introductions, marine acidification, or functional diversity) become available. For inventory modelling, the EE IO TRAIL (Environmentally Extended Input-Output Analysis using Trade Information and LCA) method is used in the Swiss context and the EE MRIO (Multi-Regional Input-Output) models are suggested for tracing global supply chains. The author advocates for sub-national regionalization of inventories to better identify and protect biodiversity hotspots. 
 
 ### Energy
 
 @MCMANAMAY2021109234 evaluate the global biodiversity implications of alternative electrification strategies by developing a spatially explicit framework that combines high-resolution energy density estimates for ten renewable and conventional technologies with species richness data for birds, amphibians, mammals, and fish. The biodiversity Footprint is measured as species impacted per GWh of energy produced. Biomass-powered electricity is identified as the most damaging to biodiversity, because its low energy density requires massive land assets that can overlap with biodiversity hotspots. Solar technologies are found to be land-sparing, because their high energy density allows global electricity demand to be met within a much smaller total footprint despite causing localized land degradation. The researchers find what they call a "protected area paradox", where strictly avoiding development on protected lands actually increases total biodiversity loss. Excluding energy-dense areas forces infrastructure into less optimal lower-density regions, consequently requiring a significantly larger geographical area to meet the same global energy needs. The authors recommend consolidating large-scale solar and wind development instead of patchy deployment, as it could significantly lessen the burden on global biodiversity.
+
+@FONTANIER2025145735 evaluate the application of three biodiversity footprinting methods (Global Biodiversity Score, Product Biodiversity Footprint, and Site Biodiversity Footprint) to the French nuclear fleet, identifying water use for cooling and upstream value chain activities, such as uranium mining, as the primary drivers of biodiversity impact. The study demonstrates that while these tools are valuable for identifying hotspots, they require significant resources for data collection and specialized internal expertise. The authors advocate for greater standardisation and transparency in biodiversity modeling to enhance the reliability and comparability of footprint results across industrial sectors.
 
 ## Gap analysis
 
@@ -64,6 +64,8 @@ Global Biodiversity Score (GBS) - commercial?
 ## Expected results
 
 ## Risk assessment
+
+There is a risk that the work will be taken out of context and used as an argument against renewable energy.
 
 ## Project schedule
 
