@@ -38,18 +38,23 @@ Biodiversity footprinting for the energy sector: A high-level assessment of the 
 ## Research aims
 
 - Perform literature review of existing work on this topic 
-- What is Threat-Abatement STAR (START) data
 - Investigate if and how satellite data can be employed for this project
 
 ## Literature study: current state of research
 
-### Methodology
+### Methodologies for biodiversity in LCA
 
 Including Biodiversity in Life Cycle Assessment – State of the Art, Gaps and Research Needs (Winter et al., 2017)
 
 @Deuber2026 proposes an enhanced hybrid framework to assess the biodiversity footprint of Swiss national consumption by integrating LC-IMPACT endpoint modeling with recent GLAM midpoint indicators. While prior assessments focused narrowly on land use, this approach expands coverage to stressors like global warming and terrestrial acidification. It allows for gradual updates in the methodology once improved GLAM midpoint indicators (e.g. for alien species introductions, marine acidification, or functional diversity) become available. For inventory modelling, the EE IO TRAIL (Environmentally Extended Input-Output Analysis using Trade Information and LCA) method is used in the Swiss context and the EE MRIO (Multi-Regional Input-Output) models are suggested for tracing global supply chains. The author advocates for sub-national regionalization of inventories to better identify and protect biodiversity hotspots. 
 
-### Energy
+### Biodiversity and satellite data
+
+@posth2024bio introduce the Bio-Value-at-Risk (BioVaR) framework, which uses geospatial analysis to provide a bottom-up quantification of biodiversity risks by overlaying remote sensing data with spatial footprints of corporate assets. The underlying IBLG model structures the spatial association between operational activities and environmental impacts across four scales: Internal (within the property boundary), Bordering (immediate neighbourhood), Landscape (up to 1,000 km), and Global. High-resolution data from Landsat and Copernicus is used to calculate site-specific biodiversity loss footprints based on indicators such as Mean Species Abundance (MSA) as defined in the GLOBIO model by @schipper2020projecting or Potentially Disappeared Fraction (PDF) as used in LCA. Mapping the findings into a financial dimension via calibrated cost functions allows to translate physical ecological damage into site-specific financial costs. It can then be consistently aggregated for corporate risk management and investment portfolio analysis.
+
+Global biodiversity footprints of agricultural production systems : comparing the biodiversity impacts of staple and luxury food crops (https://digitalcollection.zhaw.ch/items/1e40090f-ceef-410a-9699-620334dd6804)
+
+### Analysis of the effects of energy production on biodiversity
 
 @Gong2025 measure the land-use induced biodiversity impacts for over 40,000 renewable energy plants by integrating spatial Threat-Abatement STAR (STAR$_T$) scores introduced by @mair2021metric with high-resolution satellite imagery to verify exact project footprints. The study found that solar power generates the largest aggregate biodiversity impact because of its extensive land requirements. Hydropower plants are disproportionately sited in the world's most biodiversity-sensitive locations. Total biodiversity loss from these installations has risen sharply over the last two decades, primarily driven by increased land use per project. It is highly concentrated, with just 1% of plants responsible for nearly 70% of the overall impact. Corporate finance applications reveal that ownership and financing structures significantly influence siting decisions. The researchers estimate that the ongoing expansion of renewable capacity could increase these impacts to a scale equivalent to Canada’s total land biodiversity value by 2030 and point out the need for targeted siting policies and stricter environmental safeguards.
 
