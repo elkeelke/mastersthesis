@@ -29,14 +29,55 @@ AIs:
 - Investigate if and how satellite data can be employed for this project
 ```
 
-# Introduction
+
+# Disposition (2000 - 3000 words)
+
+## Introduction to the topic
+
+Biodiversity footprinting for the energy sector: A high-level assessment of the climate impact of the energy sector globally and in Switzerland using an LCA approach
+
+## Research questions and hypotheses
+
+## Research aims
+
+## Literature study: current state of research
+
+### Methodology
 
 Including Biodiversity in Life Cycle Assessment – State of the Art, Gaps and Research Needs (Winter et al., 2017)
 
-Global biodiversity implications of alternative electrification strategies (van Vliet et al., 2021)
+Global Biodiversity Score (GBS) - commercial?
+
+### Energy
+
+Global Biodiversity Implications of Alternative Electrification Strategies Under the Shared Socioeconomic Pathways (McManamay et al., 2021)
+
+Biodiversity Footprint: Measured as species impacted per GWh
+
+Biomass highest biodiversity impact. Despite its low contribution to the global energy mix, its low energy density requires vast land areas, often overlapping with biodiversity hotspots
+Solar: cause intense land degradation, their high energy density means they require significantly less total area to meet electricity demands
+Hydropower and Wind: These also exhibited high biodiversity footprints due to lower energy densities compared to fossil fuels and solar
+Fossil Fuels: Generally had lower biodiversity footprints per GWh than many renewables, though their impacts on aquatic species remained notable
+
 consolidating large-scale solar and wind development, rather than "dilute" or patchy deployment, could significantly lessen the burden on global biodiversity
 
-Global Biodiversity Score (GBS) - commercial?
+## Gap analysis
+
+### Gaps in the field of research
+### Motivation for the research 
+### Justification of the added scientific value for the field of study
+
+## Materials and methods
+
+## Expected results
+
+## Risk assessment
+
+## Project schedule
+
+## Budget plan
+
+The will not be any budgetary costs.
 
 # References
 
