@@ -35,10 +35,13 @@ Biodiversity footprinting for the energy sector: A high-level assessment of the 
 
 ## Research questions and hypotheses
 
+Komplexes Thema mit LCA Fokus (zwei Drittel) und remote sensing (ein Drittel), z.B. Staudämme oder Erdöltankerunglücke erkennen
+
 ## Research aims
 
 - Perform literature review of existing work on this topic 
 - Investigate if and how satellite data can be employed for this project
+- Write a paper (15 pages)
 
 ## Literature study: current state of research
 
@@ -56,6 +59,10 @@ Biodiversity footprinting for the energy sector: A high-level assessment of the 
 
 @Hauser2025 define seven guiding principles for leveraging satellite remote sensing in corporate disclosure. Companies should clearly define the area, time period, and activities being assessed, including indirect effects beyond their own sites. They should cover key aspects of ecosystems using a small set of well defined LCA impact categories. Changes over time should be tracked to separate natural variation from human impacts. Environmental changes should be linked to company operations. Companies should assess how business performance depends on ecosystems, including related risks, and measure direct, indirect, and cumulative impacts across operations and supply chains. Finally, companies should consider the cross dependencies between impact categories.
 
+#### Case studies
+
+@Ma2023 evaluate coastal ecological risk by integrating deep learning-based oil spill monitoring with environmental vulnerability assessments. Utilizing Sentinel-1 images and the DeepLabv3+ network, the researchers achieved over high accuracy in detecting oil spills by incorporating polarimetric synthetic aperture radar (PolSAR) and wind speed data. This was combined with a multidimensional vulnerability index covering water eutrophication, species diversity (zoobenthos and fish), and marine functional zoning using an Analytic Hierarchy Process weighted model. A case study of Jiaozhou Bay, China, revealed that the area faces ecological risk, with the highest threats concentrated in ports, shipping channels, and marine reserves. Many spills occur at night, likely due to illegal ship tank cleaning.
+
 ### Analysis of the effects of energy production on biodiversity
 
 @Gong2025 measure the land-use induced biodiversity impacts for over 40,000 renewable energy plants by integrating spatial Threat-Abatement STAR (STAR$_T$) scores introduced by @mair2021metric with high-resolution satellite imagery to verify exact project footprints. The study found that solar power generates the largest aggregate biodiversity impact because of its extensive land requirements. Hydropower plants are disproportionately sited in the world's most biodiversity-sensitive locations. Total biodiversity loss from these installations has risen sharply over the last two decades, primarily driven by increased land use per project. It is highly concentrated, with just 1% of plants responsible for nearly 70% of the overall impact. Corporate finance applications reveal that ownership and financing structures significantly influence siting decisions. The researchers estimate that the ongoing expansion of renewable capacity could increase these impacts to a scale equivalent to Canada’s total land biodiversity value by 2030 and point out the need for targeted siting policies and stricter environmental safeguards.
@@ -63,6 +70,8 @@ Biodiversity footprinting for the energy sector: A high-level assessment of the 
 @MCMANAMAY2021109234 evaluate the global biodiversity implications of alternative electrification strategies by developing a spatially explicit framework that combines high-resolution energy density estimates for ten renewable and conventional technologies with species richness data for birds, amphibians, mammals, and fish. The biodiversity Footprint is measured as species impacted per GWh of energy produced. Biomass-powered electricity is identified as the most damaging to biodiversity, because its low energy density requires massive land assets that can overlap with biodiversity hotspots. Solar technologies are found to be land-sparing, because their high energy density allows global electricity demand to be met within a much smaller total footprint despite causing localized land degradation. The researchers find what they call a "protected area paradox", where strictly avoiding development on protected lands actually increases total biodiversity loss. Excluding energy-dense areas forces infrastructure into less optimal lower-density regions, consequently requiring a significantly larger geographical area to meet the same global energy needs. The authors recommend consolidating large-scale solar and wind development instead of patchy deployment, as it could significantly lessen the burden on global biodiversity.
 
 @FONTANIER2025145735 evaluate the application of three biodiversity footprinting methods (Global Biodiversity Score, Product Biodiversity Footprint, and Site Biodiversity Footprint) to the French nuclear fleet, identifying water use for cooling and upstream value chain activities, such as uranium mining, as the primary drivers of biodiversity impact. The study demonstrates that while these tools are valuable for identifying hotspots, they require significant resources for data collection and specialized internal expertise. The authors advocate for greater standardisation and transparency in biodiversity modeling to enhance the reliability and comparability of footprint results across industrial sectors.
+
+#### Case studies
 
 @wang2025environmental study PV installations in an alpine meadow on the eastern Tibetan Plateau and find that air temperature rises in daytime and summer, but drops at night and in winter. Soil under panels is colder and drier, while gaps between panels are colder and wetter, extending the frozen period by roughly 50 days and slowing moisture loss up to 3.5×. These shifts alter local energy and water balances, warranting further studies to evaluate the long-term impacts on vegetation dynamics and permafrost processes.
 
