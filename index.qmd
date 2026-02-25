@@ -64,6 +64,8 @@ Biodiversity footprinting for the energy sector: A high-level assessment of the 
 
 @FONTANIER2025145735 evaluate the application of three biodiversity footprinting methods (Global Biodiversity Score, Product Biodiversity Footprint, and Site Biodiversity Footprint) to the French nuclear fleet, identifying water use for cooling and upstream value chain activities, such as uranium mining, as the primary drivers of biodiversity impact. The study demonstrates that while these tools are valuable for identifying hotspots, they require significant resources for data collection and specialized internal expertise. The authors advocate for greater standardisation and transparency in biodiversity modeling to enhance the reliability and comparability of footprint results across industrial sectors.
 
+@wang2025environmental study PV installations in an alpine meadow on the eastern Tibetan Plateau and find that air temperature rises in daytime and summer, but drops at night and in winter. Soil under panels is colder and drier, while gaps between panels are colder and wetter, extending the frozen period by roughly 50 days and slowing moisture loss up to 3.5×. These shifts alter local energy and water balances, warranting further studies to evaluate the long-term impacts on vegetation dynamics and permafrost processes.
+
 ## Gap analysis
 
 ### Gaps in the field of research
