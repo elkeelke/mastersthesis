@@ -20,28 +20,83 @@ bibliography: bibliography.bib
 csl: apa-no-ampersand.csl
 ---
 
-
-```{=latex}
-\section*{Abstract}
-Renewable energy is critical for climate mitigation.
-```
-
-
 # Disposition (2000 - 3000 words)
 
 ## Topic
 
-Biodiversity footprinting for the energy sector: A high-level assessment of the climate impact of the energy sector globally and in Switzerland using an LCA approach
+The working title of the master's thesis is: *Biodiversity footprinting for the energy sector: A high-level assessment of the climate impact of the energy sector globally and in Switzerland using an LCA approach*
 
-## Research questions and hypotheses
-
-Komplexes Thema mit LCA Fokus (zwei Drittel) und remote sensing (ein Drittel), z.B. Staudämme oder Erdöltankerunglücke erkennen
+The work will focus on life cycle assessment since it is carried out within the LCA research group, and will include a remote sensing part as well as an energy related part.
 
 ## Research aims
 
-- Perform literature review of existing work on this topic 
-- Investigate if and how satellite data can be employed for this project
-- Write a paper (15 pages)
+The goals for this project are as follows:
+
+-   Perform literature review of existing work
+-   Understand state of the art for biodiversity related LCA indicators
+-   Define exact research questions (see @sec-research-questions)
+-   Investigate usage of satellite data for addressing the research questions
+
+## Research questions and hypotheses {#sec-research-questions} 
+
+Analysis of the effects of energy production on biodiversity
+
+-   Which existing biodiversity indicators are most relevant for the energy sector?
+-   Which biodiversity indicators most relevant for the energy sector do not exist yet?
+-   Which of these indicators (if any) can be evaluated using remote sensing data? While land use is possible to detect on satellite imagery for large plant, many other indicators might be hard to assess. Can you fly a drone over a certain site and detect presence or absence of wildlife?
+
+Options for demonstrator / prototype: 
+
+- Case study for a certain type of energy infrastructure (e.g., reservoir dams)
+- Case study for a certain side effect caused by energy production related activities (e.g., oil spills)
+- Case study for some Swiss energy plant? Would flying a drone over it even be allowed?
+
+
+## Gap analysis (WIP)
+
+### Gaps in the field of research
+
+In an ideal world this project can contribute to the development of new GLAM midpoint indicators (e.g. for alien species introductions, marine acidification, or functional diversity).
+
+### Motivation for the research
+
+### Justification of the added scientific value for the field of study
+
+## Materials and methods
+
+### LCA integration
+
+Full understanding of the 
+
+### Remote sensing data 
+
+Ideally existing data can be used for this project:
+
+- Use @Gong2025 data if they allow it and dive deep on one plant adding more indicators (paper did land use only) 
+- Use foundation models, which are large-scale AI models pre-trained on large unlabeled Earth Observation data (satellite imagery, radar, weather) using self-supervised learning. They provide versatile embeddings which are numerical representations of each pixel that can be employed for any task that relies on similarities between land cover.
+
+## Expected results
+
+The following outcome is expected:
+
+-   Provide some kind of demonstrator or prototype
+-   Write a thesis in scientific paper format with approximately 15 pages
+
+Non-goal: Developing a full data extraction framework or a scalable results interface is beyond the scope of this work (30 ECTS).
+
+## Project schedule
+
+The project schedule is pictured in @fig-timeplan. Large tasks will be broken down into smaller ones.
+
+![Project schedule](img/timeplan.png){#fig-timeplan fig-align="center" width="100%"}
+
+## Risk assessment
+
+There is a risk that the work will be taken out of context and used as an argument against renewable energy. This can be avoided by stating highly visible in the abstract of the work that renewable energy is critical for climate mitigation.
+
+## Budget plan
+
+The will not be any budgetary costs.
 
 ## Literature study: current state of research
 
@@ -49,19 +104,19 @@ Komplexes Thema mit LCA Fokus (zwei Drittel) und remote sensing (ein Drittel), z
 
 @Winter2017 provide a comprehensive review of the state of biodiversity integration into Life Cycle Assessment (LCA). Their analysis of 119 biodiversity indicators reveals a gap in taxonomic coverage. While species and ecosystem diversity are relatively well-represented, genetic diversity is neglected. The study identifies a major disconnect between ecological theory and industrial practice, noting that models like ReCiPe focus on a narrow subset of pressures, and often use "species richness" synonymously with biodiversity. To bridge these gaps, the authors recommend systemic modifications across all four phases of the LCA process. Inventory data for missing pressures such as noise, artificial light, and odour should be developed. Impact assessment models that capture all three levels of biodiversity (ecosystem, species, genetics) through improved regionalisation and higher spatial resolution should be adopted.
 
-@Deuber2026 proposes an enhanced hybrid framework to assess the biodiversity footprint of Swiss national consumption by integrating LC-IMPACT endpoint modeling with recent GLAM midpoint indicators. While prior assessments focused narrowly on land use, this approach expands coverage to stressors like global warming and terrestrial acidification. It allows for gradual updates in the methodology once improved GLAM midpoint indicators (e.g. for alien species introductions, marine acidification, or functional diversity) become available. For inventory modelling, the EE IO TRAIL (Environmentally Extended Input-Output Analysis using Trade Information and LCA) method is used in the Swiss context and the EE MRIO (Multi-Regional Input-Output) models are suggested for tracing global supply chains. The author advocates for sub-national regionalization of inventories to better identify and protect biodiversity hotspots. 
+@Deuber2026 proposes an enhanced hybrid framework to assess the biodiversity footprint of Swiss national consumption by integrating LC-IMPACT endpoint modeling with recent GLAM midpoint indicators. While prior assessments focused narrowly on land use, this approach expands coverage to stressors like global warming and terrestrial acidification. It allows for gradual updates in the methodology once improved GLAM midpoint indicators (e.g. for alien species introductions, marine acidification, or functional diversity) become available. For inventory modelling, the EE IO TRAIL (Environmentally Extended Input-Output Analysis using Trade Information and LCA) method is used in the Swiss context and the EE MRIO (Multi-Regional Input-Output) models are suggested for tracing global supply chains. The author advocates for sub-national regionalization of inventories to better identify and protect biodiversity hotspots.
 
 ### Biodiversity and satellite data
 
 @Goetz2025 evaluate how different agricultural production systems affect biodiversity under intensified land use for permanent crops such as coffee, cocoa, and oil palm. The study integrates regionalized environmental and biodiversity impact characterization factors with crop-specific land-use and productivity data to provide a spatially explicit assessment of ecological impacts across production systems.
 
-@posth2024bio introduce the Bio-Value-at-Risk (BioVaR) framework, which uses geospatial analysis to provide a bottom-up quantification of biodiversity risks by overlaying remote sensing data with spatial footprints of corporate assets. The underlying IBLG model structures the spatial association between operational activities and environmental impacts across four scales: Internal (within the property boundary), Bordering (immediate neighbourhood), Landscape (up to 1,000 km), and Global. High-resolution data from Landsat and Copernicus is used to calculate site-specific biodiversity loss footprints based on indicators such as Mean Species Abundance (MSA) as defined in the GLOBIO model by @schipper2020projecting or Potentially Disappeared Fraction (PDF) as used in LCA. Mapping the findings into a financial dimension via calibrated cost functions allows to translate physical ecological damage into site-specific financial costs. It can then be consistently aggregated for corporate risk management and investment portfolio analysis.
+@posth2024bio introduce the Bio-Value-at-Risk (BioVaR) framework, which uses geospatial analysis to provide a bottom-up quantification of biodiversity risks by overlaying remote sensing data with spatial footprints of corporate assets. The underlying IBLG model structures the spatial association between operational activities and environmental impacts across four scales: Internal (within the property boundary), Bordering (immediate neighbourhood), Landscape (up to 1,000 km), and Global. High-resolution data from Landsat and Copernicus is used to calculate site-specific biodiversity loss footprints based on indicators such as Mean Species Abundance (MSA) as defined in the GLOBIO model by @schipper2020projecting or Potentially Disappeared Fraction (PDF) as used in LCA. Mapping the findings into a financial dimension via calibrated cost functions allows to translate physical ecological damage into site-specific financial costs. It can then be consistently aggregated for many purposes, such as corporate risk management and investment portfolio analysis.
 
 @Hauser2025 define seven guiding principles for leveraging satellite remote sensing in corporate disclosure. Companies should clearly define the area, time period, and activities being assessed, including indirect effects beyond their own sites. They should cover key aspects of ecosystems using a small set of well defined LCA impact categories. Changes over time should be tracked to separate natural variation from human impacts. Environmental changes should be linked to company operations. Companies should assess how business performance depends on ecosystems, including related risks, and measure direct, indirect, and cumulative impacts across operations and supply chains. Finally, companies should consider the cross dependencies between impact categories.
 
 #### Case studies
 
-@Ma2023 evaluate coastal ecological risk by integrating deep learning-based oil spill monitoring with environmental vulnerability assessments. Utilizing Sentinel-1 images and the DeepLabv3+ network, the researchers achieved over high accuracy in detecting oil spills by incorporating polarimetric synthetic aperture radar (PolSAR) and wind speed data. This was combined with a multidimensional vulnerability index covering water eutrophication, species diversity (zoobenthos and fish), and marine functional zoning using an Analytic Hierarchy Process weighted model. A case study of Jiaozhou Bay, China, revealed that the area faces ecological risk, with the highest threats concentrated in ports, shipping channels, and marine reserves. Many spills occur at night, likely due to illegal ship tank cleaning.
+@Ma2023 evaluate coastal ecological risk by integrating deep learning-based oil spill monitoring with environmental vulnerability assessments. Utilizing Sentinel-1 images and the DeepLabv3+ network, the researchers achieve high accuracy in detecting oil spills by incorporating polarimetric synthetic aperture radar (PolSAR) and wind speed data. This is combined with a multidimensional vulnerability index covering water eutrophication, species diversity (zoobenthos and fish), and marine functional zoning using an Analytic Hierarchy Process weighted model. A case study of Jiaozhou Bay, China, reveals that the area faces ecological risk, with the highest threats concentrated in ports, shipping channels, and marine reserves. Many spills occur at night, likely due to illegal ship tank cleaning.
 
 ### Analysis of the effects of energy production on biodiversity
 
@@ -75,25 +130,4 @@ Komplexes Thema mit LCA Fokus (zwei Drittel) und remote sensing (ein Drittel), z
 
 @wang2025environmental study PV installations in an alpine meadow on the eastern Tibetan Plateau and find that air temperature rises in daytime and summer, but drops at night and in winter. Soil under panels is colder and drier, while gaps between panels are colder and wetter, extending the frozen period by roughly 50 days and slowing moisture loss up to 3.5×. These shifts alter local energy and water balances, warranting further studies to evaluate the long-term impacts on vegetation dynamics and permafrost processes.
 
-## Gap analysis
-
-### Gaps in the field of research
-### Motivation for the research 
-### Justification of the added scientific value for the field of study
-
-## Materials and methods
-
-## Expected results
-
-## Risk assessment
-
-There is a risk that the work will be taken out of context and used as an argument against renewable energy.
-
-## Project schedule
-
-## Budget plan
-
-The will not be any budgetary costs.
-
 # References
-
