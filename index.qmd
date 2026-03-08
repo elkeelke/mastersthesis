@@ -41,9 +41,12 @@ The goals for this project are as follows:
 
 Analysis of the effects of energy production on biodiversity
 
--   Which existing biodiversity indicators are most relevant for the energy sector?
--   Which biodiversity indicators most relevant for the energy sector do not exist yet?
--   Which of these indicators (if any) can be evaluated using remote sensing data? While land use is possible to detect on satellite imagery for large plant, many other indicators might be hard to assess. Can you fly a drone over a certain site and detect presence or absence of wildlife?
+-   Which existing biodiversity indicators are most relevant for the energy sector? Hypothesis?
+-   Are there any biodiversity indicators most relevant for the energy sector that do not exist yet? Hypothesis?
+-   Which of these indicators (if any) can be evaluated using remote sensing data? The hypothesis is that while land use is possible to detect on satellite imagery for large energy plants, many other indicators will be hard to assess because much more fine-grained resolution than the satellite can provide is required. 
+
+
+Can you fly a drone over a certain site and detect presence or absence of wildlife?
 
 Options for demonstrator / prototype: 
 
@@ -56,7 +59,7 @@ Options for demonstrator / prototype:
 
 ### Gaps in the field of research
 
-In an ideal world this project can contribute to the development of new GLAM midpoint indicators (e.g. for alien species introductions, marine acidification, or functional diversity).
+@Deuber2026 states that many biodiversity relevant midpoint indicators (e.g. for alien species introductions, marine acidification, or functional diversity) do not yet exist. Out of these, functional diversity is relevant for the energy sector.
 
 ### Motivation for the research
 
@@ -86,7 +89,7 @@ Non-goal: Developing a full data extraction framework or a scalable results inte
 
 ## Project schedule
 
-The project schedule is pictured in @fig-timeplan. Large tasks will be broken down into smaller ones.
+The project schedule is pictured in @fig-timeplan. Note that large tasks will be broken down into smaller ones. The live version of this plan can be found [here](https://docs.google.com/spreadsheets/d/1_QHeDnfFwLujNv_Hiss8qOS5SjA5-003iTmxzy1sRdA/edit?gid=1314943303#gid=1314943303).
 
 ![Project schedule](img/timeplan.png){#fig-timeplan fig-align="center" width="100%"}
 
