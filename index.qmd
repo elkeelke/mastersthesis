@@ -20,7 +20,7 @@ bibliography: bibliography.bib
 csl: apa-no-ampersand.csl
 ---
 
-# Disposition (2000 - 3000 words)
+# Disposition
 
 ## Topic
 
@@ -32,58 +32,64 @@ The work will focus on life cycle assessment since it is carried out within the 
 
 The goals for this project are as follows:
 
--   Perform literature review of existing work
 -   Understand state of the art for biodiversity related LCA indicators
--   Define exact research questions (see @sec-research-questions)
--   Investigate usage of satellite data for addressing the research questions
+-   Investigate usage of remote sensing data for biodiversity related LCA indicators
+-   Provide some form of demonstrator / prototype / analysis based on existing data, and an approach for rolling this up into a high-level assessment
 
 ## Research questions and hypotheses {#sec-research-questions} 
 
-Analysis of the effects of energy production on biodiversity
+The contribution of this work will be an analysis of the effects of the infrastructure used in energy production on biodiversity. The research questions are defined as follows:
 
--   Which existing biodiversity indicators are most relevant for the energy sector? Hypothesis?
--   Are there any biodiversity indicators most relevant for the energy sector that do not exist yet? Hypothesis?
--   Which of these indicators (if any) can be evaluated using remote sensing data? The hypothesis is that while land use is possible to detect on satellite imagery for large energy plants, many other indicators will be hard to assess because much more fine-grained resolution than the satellite can provide is required. 
+-   Which existing biodiversity indicators are most relevant for the infrastructure deployed by the energy sector? TBD: Hypothesis?
+-   Are there any biodiversity indicators most relevant for the energy sector that do not exist yet? TBD: Hypothesis?
+-   Which of these indicators (if any) can be evaluated using remote sensing data? TBD: Hypothesis? 
+    -   TBD: Are there any proxies (like ash color scheme for contrails)
 
-
-Can you fly a drone over a certain site and detect presence or absence of wildlife?
-
-Options for demonstrator / prototype: 
+Options for demonstrator / prototype / analysis: 
 
 - Case study for a certain type of energy infrastructure (e.g., reservoir dams)
 - Case study for a certain side effect caused by energy production related activities (e.g., oil spills)
 - Case study for some Swiss energy plant? Would flying a drone over it even be allowed?
 
+## Gap analysis
 
-## Gap analysis (WIP)
+This section gives a brief overview of what can be expected in the thesis chapter on gap analysis.
 
 ### Gaps in the field of research
 
-@Deuber2026 states that many biodiversity relevant midpoint indicators (e.g. for alien species introductions, marine acidification, or functional diversity) do not yet exist. Out of these, functional diversity is relevant for the energy sector.
+This will be the outcome of the full literature study. See @sec-literature-study for the preliminary work.
 
-### Motivation for the research
+### Motivation for the research (WIP)
 
-### Justification of the added scientific value for the field of study
+Existing 
+
+### Justification of the added scientific value for the field of study (WIP)
 
 ## Materials and methods
 
+This section gives a brief overview of what can be expected in the thesis chapter on materials and methods.
+
 ### LCA integration
 
-Full understanding of the 
+Provide a description of the relevant biodiversity indicators.
+
+### Energy
+
+Provide an overview of the infrastructure deployed by the energy sector and its main environmental impacts. 
 
 ### Remote sensing data 
 
-Ideally existing data can be used for this project:
+Describe existing data can be used for this project:
 
-- Use @Gong2025 data if they allow it and dive deep on one plant adding more indicators (paper did land use only) 
-- Use foundation models, which are large-scale AI models pre-trained on large unlabeled Earth Observation data (satellite imagery, radar, weather) using self-supervised learning. They provide versatile embeddings which are numerical representations of each pixel that can be employed for any task that relies on similarities between land cover.
+- Use @Gong2025 data if possible, and dive deep on one plant adding more indicators (paper did land use only). 
+- Use foundation models, which are large-scale AI models pre-trained on large unlabeled Earth Observation data (satellite imagery, radar, weather) using self-supervised learning. They provide embeddings which are numerical representations of each pixel that can be employed for any task that relies on similarities between land cover.
 
 ## Expected results
 
 The following outcome is expected:
 
--   Provide some kind of demonstrator or prototype
--   Write a thesis in scientific paper format with approximately 15 pages
+-   Demonstrator / prototype / analysis based on existing data
+-   Thesis in scientific paper format with approximately 15 pages, will be submitted for publication
 
 Non-goal: Developing a full data extraction framework or a scalable results interface is beyond the scope of this work (30 ECTS).
 
@@ -101,7 +107,7 @@ There is a risk that the work will be taken out of context and used as an argume
 
 The will not be any budgetary costs.
 
-## Literature study: current state of research
+## Literature study: current state of research {#sec-literature-study}
 
 ### Methodologies for biodiversity in LCA
 
