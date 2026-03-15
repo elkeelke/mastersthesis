@@ -24,13 +24,13 @@ csl: apa-no-ampersand.csl
 
 ## Topic
 
-The working title of the master's thesis is: *Biodiversity footprinting for the energy sector: A high-level assessment of the climate impact of the energy sector globally and in Switzerland using an LCA approach*
+The working title of the master's thesis is: *Biodiversity footprinting for the energy sector: A high-level assessment of the climate impact of the energy sector globally and in Switzerland using a life cycle assessment (LCA) approach*
 
-The work will focus on life cycle assessment (LCA) since it is carried out within the LCA research group, and will include a remote sensing part as well as an energy related part.
+The work will be carried out within the LCA research group and focus on LCA but will include a remote sensing part as well as an energy related part.
 
 ## Research aim
 
-LCA in the energy sector often focuses primarily on impacts related to climate change and land use. This thesis aims to contribute to a more comprehensive understanding of the full range of biodiversity impacts associated with energy production infrastructure at the national or global scale.
+LCA in the energy sector often focuses primarily on impacts related to climate change and land use. This thesis aims to contribute to a more comprehensive understanding of the full range of biodiversity impacts associated with energy production infrastructure by identifying relevant factors not yet represented in LCA, quantifying their magnitude, and exploring how they can be incorporated into LCA frameworks at national and global scales.
 
 ## Research questions and hypotheses {#sec-research-questions}
 
@@ -38,9 +38,9 @@ The goals for this project are as follows:
 
 -   Assess state of the art for LCA indicators and methods in use in the energy sector
 -   Understand and document the state of the art for biodiversity related LCA indicators and methods
--   Identify certain types of large energy infrastructure (e.g., reservoir dams) or side effect caused by energy production related activities (e.g., oil spills, methane leaks, coal mining pit lakes) where effects on biodiversity are currently underrepresented in LCA because of missing data and/methods
--   Investigate the potential of remote sensing data to provide data for these type of energy infrastructure and side effects
--   Provide a generalization for how that data can be employed for improving inventory regionalization of biodiversity related LCA indicators
+-   Identify certain types of large energy infrastructure (e.g., reservoir dams) or side effects caused by energy production related activities (e.g., oil spills, methane leaks, coal mining pit lakes) that have an impact on biodiversity that is currently underrepresented in LCA because of missing data and/methods
+-   Investigate the potential of remote sensing data to provide the information needed to capture these impacts
+-   Develop a generalized approach for using such data to improve the coverage of regionalized life cycle inventory data for biodiversity related indicators.
 
 The exact research questions are not yet defined.
 
