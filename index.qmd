@@ -30,7 +30,7 @@ The work will focus on life cycle assessment (LCA) since it is carried out withi
 
 ## Research aim
 
-LCAs in the energy sector often focus primarily on impacts related to climate change and land use. This thesis aims to contribute to a more comprehensive understanding of the full range of biodiversity impacts associated with energy production infrastructure at the national or global scale.
+LCA in the energy sector often focuses primarily on impacts related to climate change and land use. This thesis aims to contribute to a more comprehensive understanding of the full range of biodiversity impacts associated with energy production infrastructure at the national or global scale.
 
 ## Research questions and hypotheses {#sec-research-questions}
 
@@ -38,25 +38,17 @@ The goals for this project are as follows:
 
 -   Assess state of the art for LCA indicators and methods in use in the energy sector
 -   Understand and document the state of the art for biodiversity related LCA indicators and methods
--   
--   Investigate the potential of remote sensing data to provide inventory regionalization for biodiversity related LCA indicators in the energy sector
+-   Identify certain types of large energy infrastructure (e.g., reservoir dams) or side effect caused by energy production related activities (e.g., oil spills, methane leaks, coal mining pit lakes) where effects on biodiversity are currently underrepresented in LCA because of missing data and/methods
+-   Investigate the potential of remote sensing data to provide data for these type of energy infrastructure and side effects
+-   Provide a generalization for how that data can be employed for improving inventory regionalization of biodiversity related LCA indicators
 
- The research questions are defined as follows:
+The exact research questions are not yet defined.
 
--   Which of these indicators (if any) can be evaluated using remote sensing data? TBD: Hypothesis?
-    -   TBD: Are there any proxies (like ash color scheme for contrails)
-
-Options for high-level assessment demonstrator / prototype / analysis:
-
--   Case study for a certain type of energy infrastructure (e.g., reservoir dams)
--   Case study for a certain side effect caused by energy production related activities (e.g., oil spills)
--   Assess Infrastructure Losses (escaping gas), Kohleabbau (Polen) creates Baggersee, 
--   Methane detection
--   Case study for some Swiss energy plant? Can't be done on satellite. Would flying a drone over it even be allowed?
+<!--
 
 ## Gap analysis
 
-This section gives a brief overview of what can be expected in the thesis chapter on gap analysis.
+This section gives an overview of what can be expected in the thesis chapter on gap analysis.
 
 ### Gaps in the field of research
 
@@ -89,11 +81,12 @@ Describe existing data can be used for this project:
 -   Use @Gong2025 data if possible, and dive deep on one plant adding more indicators (paper did land use only).
 -   Use foundation models, which are large-scale AI models pre-trained on large unlabeled Earth Observation data (satellite imagery, radar, weather) using self-supervised learning. They provide embeddings which are numerical representations of each pixel that can be employed for any task that relies on similarities between land cover.
 
+-->
+
 ## Expected results
 
 The following outcome is expected:
 
--   Case study / demonstrator / prototype / analysis (TBD) together with a description for how it can build the base for a high-level assessment for CH and globally
 -   Thesis in scientific paper format with approximately 15 pages, will be submitted for publication
 
 Non-goal: Developing a full data extraction framework or a scalable results interface is beyond the scope of this work (30 ECTS).
@@ -106,14 +99,18 @@ The project schedule is pictured in @fig-timeplan. Note that large tasks will be
 
 ## Risk assessment
 
+<!--
 On a general level, there is a risk that the work will be taken out of context and used as an argument against renewable energy. This can be avoided by stating highly visible in the abstract of the work that renewable energy is critical for climate mitigation.
+-->
 
 For the research goals, there is a risk that remote sensing data turns out to be not useful for the planned task. TBD: How to mitigate?
 
-
+<!--
 ## Budget plan
 
 The will not be any budgetary costs.
+
+-->
 
 ## Literature study: current state of research {#sec-literature-study}
 
@@ -134,6 +131,8 @@ The will not be any budgetary costs.
 #### Case studies
 
 @Ma2023 evaluate coastal ecological risk by integrating deep learning-based oil spill monitoring with environmental vulnerability assessments. Utilizing Sentinel-1 images and the DeepLabv3+ network, the researchers achieve high accuracy in detecting oil spills by incorporating polarimetric synthetic aperture radar (PolSAR) and wind speed data. This is combined with a multidimensional vulnerability index covering water eutrophication, species diversity (zoobenthos and fish), and marine functional zoning using an Analytic Hierarchy Process weighted model. A case study of Jiaozhou Bay, China, reveals that the area faces ecological risk, with the highest threats concentrated in ports, shipping channels, and marine reserves. Many spills occur at night, likely due to illegal ship tank cleaning.
+
+@dorber2018modeling uses satellite data to estimate the environmental impact from land use and land use change for hydropower reservoirs for application in an LCA. The study calculated an average net land occupation for water storage reservoirs in Norway, with an adjustment to account for the natural lakes that were often part of the reservoirs' area before impoundment, for a more comprehensive evaluation of the overall environmental footprint of hydroelectric power.
 
 ### Analysis of the effects of energy production on biodiversity
 
