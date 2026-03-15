@@ -28,21 +28,21 @@ The working title of the master's thesis is: *Biodiversity footprinting for the 
 
 The work will focus on life cycle assessment (LCA) since it is carried out within the LCA research group, and will include a remote sensing part as well as an energy related part.
 
-## Research aims
+## Research aim
 
-The goals for this project are as follows:
-
--   Understand and document the state of the art for biodiversity related LCA indicators
--   Assess state of the art for LCA indicators in use in the energy sector
--   Investigate potential of remote sensing data as a data base for biodiversity related LCA indicators in the energy sector
--   Provide demonstrator / prototype / analysis based on existing data, and an approach for how it can build the base for a high-level assessment for CH and globally
+LCAs in the energy sector often focus primarily on impacts related to climate change and land use. This thesis aims to contribute to a more comprehensive understanding of the full range of biodiversity impacts associated with energy production infrastructure at the national or global scale.
 
 ## Research questions and hypotheses {#sec-research-questions}
 
-The contribution of this work will be an analysis of the effects of the infrastructure used in energy production on biodiversity. The research questions are defined as follows:
+The goals for this project are as follows:
 
--   Which existing biodiversity indicators are most relevant for the infrastructure deployed by the energy sector? TBD: Hypothesis?
--   Are there any biodiversity indicators most relevant for the energy sector that do not exist yet? TBD: Hypothesis?
+-   Assess state of the art for LCA indicators and methods in use in the energy sector
+-   Understand and document the state of the art for biodiversity related LCA indicators and methods
+-   
+-   Investigate the potential of remote sensing data to provide inventory regionalization for biodiversity related LCA indicators in the energy sector
+
+ The research questions are defined as follows:
+
 -   Which of these indicators (if any) can be evaluated using remote sensing data? TBD: Hypothesis?
     -   TBD: Are there any proxies (like ash color scheme for contrails)
 
@@ -50,7 +50,9 @@ Options for high-level assessment demonstrator / prototype / analysis:
 
 -   Case study for a certain type of energy infrastructure (e.g., reservoir dams)
 -   Case study for a certain side effect caused by energy production related activities (e.g., oil spills)
--   Case study for some Swiss energy plant? Would flying a drone over it even be allowed?
+-   Assess Infrastructure Losses (escaping gas), Kohleabbau (Polen) creates Baggersee, 
+-   Methane detection
+-   Case study for some Swiss energy plant? Can't be done on satellite. Would flying a drone over it even be allowed?
 
 ## Gap analysis
 
@@ -74,7 +76,7 @@ This section gives a brief overview of what can be expected in the thesis chapte
 
 ### LCA integration
 
-Provide a description of the relevant biodiversity indicators.
+Provide a description of the relevant biodiversity LCA indicators and methods.
 
 ### Energy
 
@@ -91,7 +93,7 @@ Describe existing data can be used for this project:
 
 The following outcome is expected:
 
--   High-level assessment demonstrator / prototype / analysis based on existing data
+-   Case study / demonstrator / prototype / analysis (TBD) together with a description for how it can build the base for a high-level assessment for CH and globally
 -   Thesis in scientific paper format with approximately 15 pages, will be submitted for publication
 
 Non-goal: Developing a full data extraction framework or a scalable results interface is beyond the scope of this work (30 ECTS).
@@ -106,7 +108,7 @@ The project schedule is pictured in @fig-timeplan. Note that large tasks will be
 
 On a general level, there is a risk that the work will be taken out of context and used as an argument against renewable energy. This can be avoided by stating highly visible in the abstract of the work that renewable energy is critical for climate mitigation.
 
-For the work itself there is a risk that remote sensing data turns out to be not useful for the planned task.
+For the research goals, there is a risk that remote sensing data turns out to be not useful for the planned task. TBD: How to mitigate?
 
 
 ## Budget plan
