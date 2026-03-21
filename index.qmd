@@ -44,6 +44,18 @@ The goals for this project are as follows:
 
 The exact research questions are not yet defined.
 
+### Methane
+
+Methane leaks (oil and gas facilities, landfill sites): https://data.carbonmapper.org 
+
+Carbon Mapper uses data from two satellites (Planet Labs Tanager-1 satellite and NASA EMIT instrument on the International Space Station) to measure the plumes as they pass overhead. Leak rates from a plume on different days are averaged and days with no leaks are taken into account. The satellites cannot collect data at night or through heavy clouds, so not every plume may be detected. The Stop Methane Project only considered plumes that were detected at least twice.
+
+Upcoming EU legislation:
+https://energy.ec.europa.eu/topics/carbon-management-and-fossil-fuels/methane-emissions_en
+
+Guardian article:
+https://www.theguardian.com/environment/2026/mar/17/revealed-world-worst-methane-leaks-global-heating
+
 <!--
 
 ## Gap analysis
