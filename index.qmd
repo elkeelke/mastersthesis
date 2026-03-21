@@ -56,6 +56,9 @@ https://energy.ec.europa.eu/topics/carbon-management-and-fossil-fuels/methane-em
 Guardian article:
 https://www.theguardian.com/environment/2026/mar/17/revealed-world-worst-methane-leaks-global-heating
 
+LCA:
+https://esu-services.ch/fileadmin/download/jungbluth-2022-oilgas-FSLCI-20220914.pdf
+
 <!--
 
 ## Gap analysis
