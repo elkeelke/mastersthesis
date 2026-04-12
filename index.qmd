@@ -71,9 +71,9 @@ While land use from renewable energy infrastructure has been assessed using Thre
 
 Further gaps that might be worth looking at:
 
--   Biodiversity impact except from land use
--   Reviewing the potential for including habitat fragmentation to improve life cycle impact assessments for land use impacts on biodiversity https://link.springer.com/article/10.1007/s11367-019-01647-1
--   Habitat Restoration STAR (STAR$_R$) score estimates the potential reduction in a species' extinction risk that could be achieved by restoring lost habitat
+-   Biodiversity impact for factors other than land use, e.g. 
+    -   Reviewing the potential for including habitat fragmentation to improve life cycle impact assessments for land use impacts on biodiversity https://link.springer.com/article/10.1007/s11367-019-01647-1
+    -   Habitat Restoration STAR (STAR$_R$) score estimates the potential reduction in a species' extinction risk that could be achieved by restoring lost habitat
 
 
 ## Materials and methods
@@ -88,8 +88,8 @@ The main metric used will be LC-Impact (TBD describe). If possible, the results 
 
 Describe existing data can be used for this project:
 
--   Ecoregions defined by @dinerstein2017ecoregion and available under a CC-BY-4.0 license online from @dinerstein2017ecoregion_resolve (as Shape file and in Earth Engine)
--   Renewable Energy infrastructure: TBD Find out if same data as in @Gong2025 can be used (likely yes)
+-   Biodiversity index per location: Ecoregions defined by @dinerstein2017ecoregion and available under a CC-BY-4.0 license online from @dinerstein2017ecoregion_resolve (as Shape file and in Earth Engine)
+-   Renewable Energy infrastructure locations: @Gong2025 used the S&P Global Market Intelligence (S&P MI) database which provides detailed data on over 100.000 global power plants which is a commercial product that might potentially be available for research purposes. Open source alternatives exists, e.g. the ResourceWatch Global Power Plant Database https://resourcewatch.org/data/explore/Powerwatch or the Global energy monitor https://globalenergymonitor.org/ and several research papers such as @kruitwagen2021global who identified nearly 70.000 PV plants or @zeng2025global who provide yearly data about PV plant locations from 2019 to 2025.
 
 <!--
 -   Use foundation models, which are large-scale AI models pre-trained on large unlabeled Earth Observation data (satellite imagery, radar, weather) using self-supervised learning. They provide embeddings which are numerical representations of each pixel that can be employed for any task that relies on similarities between land cover.
