@@ -45,6 +45,7 @@ The goals for this project are as follows:
 
 The exact research questions are not yet defined.
 
+<!--
 ### Methane
 
 Methane leaks (oil and gas facilities, landfill sites): https://data.carbonmapper.org 
@@ -69,6 +70,7 @@ https://arxiv.org/abs/2602.17372
 
 The 2025 version of the Swiss Federal Administration BAFU database contains about 11000 LCIs for products and processes in 176 categories that include sectors such as construction, mobility, energy, metals, chemicals, paper, agriculture, food, consumption, and waste management. Data are regularly updated to reflect technological developments.
 https://nexus.openlca.org/database/BAFU
+-->
 
 ## Gap analysis
 
@@ -144,7 +146,7 @@ The will not be any budgetary costs.
 
 ### Biodiversity and satellite data
 
-@Goetz2025 evaluate how different agricultural production systems affect biodiversity under intensified land use for permanent crops such as coffee, cocoa, and oil palm. The study integrates regionalized environmental and biodiversity impact characterization factors with crop-specific land-use and productivity data to provide a spatially explicit assessment of ecological impacts across production systems.
+@Goetz2025 evaluate how different agricultural production systems affect biodiversity under intensified land use for permanent crops such as coffee, cocoa, and oil palm. The study integrates regionalized environmental and biodiversity impact characterization factors with crop-specific land-use and productivity data to provide a spatially explicit assessment of ecological impacts across production systems. The spatial data defining the ecological regions originates from @dinerstein2017ecoregion and is available under a CC-BY-4.0 license online from @dinerstein2017ecoregion_resolve.
 
 @posth2024bio introduce the Bio-Value-at-Risk (BioVaR) framework, which uses geospatial analysis to provide a bottom-up quantification of biodiversity risks by overlaying remote sensing data with spatial footprints of corporate assets. The underlying IBLG model structures the spatial association between operational activities and environmental impacts across four scales: Internal (within the property boundary), Bordering (immediate neighbourhood), Landscape (up to 1,000 km), and Global. High-resolution data from Landsat and Copernicus is used to calculate site-specific biodiversity loss footprints based on indicators such as Mean Species Abundance (MSA) as defined in the GLOBIO model by @schipper2020projecting or Potentially Disappeared Fraction (PDF) as used in LCA. Mapping the findings into a financial dimension via calibrated cost functions allows to translate physical ecological damage into site-specific financial costs. It can then be consistently aggregated for many purposes, such as corporate risk management and investment portfolio analysis.
 
