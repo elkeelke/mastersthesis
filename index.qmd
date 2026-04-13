@@ -30,13 +30,15 @@ The work will be carried out within the LCA research group and focus on LCA but 
 
 ## Research aim and contribution
 
-LCA in the energy sector often focuses primarily on impacts related to climate change. This thesis aims to contribute to a more comprehensive understanding of the land use impacts associated with energy production infrastructure on national and global scales using remote sensing data.
+LCA in the energy sector often focuses primarily on impacts related to climate change. This thesis aims to extend this to the biodiversity impacts associated with energy production infrastructure on national and global scales. The main indicator will be land use, together with the biodiversity level that is evaluated based on spatial data defining the biodiversity level found in each spot.
 
-The contribution is to provide estimates for the land use of renewable energy production plants using a novel approach for this use case.
+The contribution is to provide estimates for the biodiversity loss caused by renewable energy production plants using a novel approach for this use case, and to compare against existing results.
 
 ## Research questions and hypotheses {#sec-research-questions}
 
-- What is the biodiversity level in the areas can RE plants mostly be found in? Hypothesis: PV plants are in areas with low biodiversity
+- What is the biodiversity level in the areas in which RE plants can be found in? Hypothesis: PV plants are in areas with low biodiversity, e.g. deserts or mountain plateaus (is this true?)
+- Which RE technology has the lowest biodiversity footprint? Hypothesis: Wind since it needs less space. Can we include threat to birds in the calculation somehow?
+- Can these methods be used for detecting areas for putting RE plants to minimize biodiversity loss? (lots of papers)
 
 <!--
 ### Methane
@@ -67,13 +69,12 @@ https://nexus.openlca.org/database/BAFU
 
 ## Gap analysis
 
-While land use from renewable energy infrastructure has been assessed using Threat-Abatement STAR (STAR$_T$) score, it has not been evaluated using LC-Impact.
+While land use from renewable energy infrastructure has been assessed using Threat-Abatement STAR (STAR$_T$) scores which quantifies how much species extinction risk could be reduced if biodiversity threats were removed, it has not been evaluated using LC-Impact.
 
 Further gaps that might be worth looking at:
 
 -   Biodiversity impact for factors other than land use, e.g. 
     -   Reviewing the potential for including habitat fragmentation to improve life cycle impact assessments for land use impacts on biodiversity https://link.springer.com/article/10.1007/s11367-019-01647-1
-    -   Habitat Restoration STAR (STAR$_R$) score estimates the potential reduction in a species' extinction risk that could be achieved by restoring lost habitat
 
 
 ## Materials and methods
@@ -82,7 +83,11 @@ This section gives a brief overview of what can be expected in the thesis chapte
 
 ### LCA integration
 
-The main metric used will be LC-Impact (TBD describe). If possible, the results will be cross checked against the results from @Gong2025 which is based on spatial Threat-Abatement STAR (STAR$_T$) scores introduced by @mair2021metric.
+The main metric used will be LC-Impact (TBD describe). 
+
+<!--
+If possible, the results gained from using will be LC-Impact cross checked against the results from @Gong2025 which is based on spatial Threat-Abatement STAR (STAR$_T$) scores introduced by @mair2021metric.
+-->
 
 ### Spatial and remote sensing data
 
@@ -107,11 +112,16 @@ Non-goal: Developing a full data extraction framework or a scalable results inte
 
 The work items for this project are as follows:
 
--   Understand and document the state of the art for land use related LCA indicators and methods
+-   Understand and document the state of the art for land use and biodiversity related LCA indicators and methods
 -   Assess state of the art for LCA indicators and methods in use in the energy sector (optional ?)
+-   Study related work by @Gong2025 in great detail
 -   Decide which data source to use for renewable energy plant locations
--   Decide which types of renewable energy plants can be supported
--   Design and implement data extraction
+-   Understand if we need production numbers (e.g. MWh per year) and where to source from
+-   Decide which types of renewable energy plants can be supported based on data availability
+-   Design and implement data extraction and join between energy plant location and eco regions
+-   Apply eco region specific impact factors (from LC-Impact?)
+-   Generate results (charts, maps)
+-   Write the paper
 
 The project schedule is pictured in @fig-timeplan. Note that large tasks will be broken down into smaller ones. The live version of this plan can be found [here](https://docs.google.com/spreadsheets/d/1_QHeDnfFwLujNv_Hiss8qOS5SjA5-003iTmxzy1sRdA/edit?gid=1314943303#gid=1314943303).
 
