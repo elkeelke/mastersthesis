@@ -36,7 +36,7 @@ The contribution is to provide estimates for the land use of renewable energy pr
 
 ## Research questions and hypotheses {#sec-research-questions}
 
-- Which areas can RE plants mostly be found? Hypothesis: PV plants are in areas with low biodiversity
+- What is the biodiversity level in the areas can RE plants mostly be found in? Hypothesis: PV plants are in areas with low biodiversity
 
 <!--
 ### Methane
@@ -107,9 +107,11 @@ Non-goal: Developing a full data extraction framework or a scalable results inte
 
 The work items for this project are as follows:
 
--   Assess state of the art for LCA indicators and methods in use in the energy sector
 -   Understand and document the state of the art for land use related LCA indicators and methods
--   TBD
+-   Assess state of the art for LCA indicators and methods in use in the energy sector (optional ?)
+-   Decide which data source to use for renewable energy plant locations
+-   Decide which types of renewable energy plants can be supported
+-   Design and implement data extraction
 
 The project schedule is pictured in @fig-timeplan. Note that large tasks will be broken down into smaller ones. The live version of this plan can be found [here](https://docs.google.com/spreadsheets/d/1_QHeDnfFwLujNv_Hiss8qOS5SjA5-003iTmxzy1sRdA/edit?gid=1314943303#gid=1314943303).
 
