@@ -36,7 +36,7 @@ The contribution is to provide estimates for the biodiversity loss caused by ren
 
 ## Research questions and hypotheses {#sec-research-questions}
 
-- What is the biodiversity level in the areas in which RE plants can be found in? Hypothesis: PV plants are in areas with low biodiversity, e.g. deserts or mountain plateaus (is this true?)
+- What is the biodiversity level in the areas in which RE plants can be found in? Hypothesis: PV plants are more likely found in areas with low biodiversity, e.g. deserts or mountain plateaus
 - Which RE technology has the lowest biodiversity footprint? Hypothesis: Wind since it needs less space. Can we include threat to birds in the calculation somehow?
 - Can these methods be used for detecting areas for putting RE plants to minimize biodiversity loss? (lots of papers)
 
@@ -84,6 +84,8 @@ This section gives a brief overview of what can be expected in the thesis chapte
 ### LCA integration
 
 The main metric used will be LC-Impact (TBD describe). 
+
+GLAM characterization factors from @scherer2023biodiversity include land use intensities and land fragmentation
 
 <!--
 If possible, the results gained from using will be LC-Impact cross checked against the results from @Gong2025 which is based on spatial Threat-Abatement STAR (STAR$_T$) scores introduced by @mair2021metric.
