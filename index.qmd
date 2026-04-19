@@ -117,11 +117,7 @@ The work items for this project are as follows:
 -   Understand and document the state of the art for land use and biodiversity related LCA indicators and methods
 -   Assess state of the art for LCA indicators and methods in use in the energy sector (optional ?)
 -   Study related work by @Gong2025 in great detail
--   Decide which data source to use for renewable energy plant locations
 -   Understand if we need production numbers (e.g. MWh per year) and where to source from
--   Decide which types of renewable energy plants can be supported based on data availability
--   Design and implement data extraction and join between energy plant location and eco regions
--   Apply eco region specific impact factors (from LC-Impact?)
 -   Generate results (charts, maps)
 -   Write the paper
 
