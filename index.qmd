@@ -112,16 +112,7 @@ Non-goal: Developing a full data extraction framework or a scalable results inte
 
 ## Work plan and project schedule
 
-The work items for this project are as follows:
-
--   Understand and document the state of the art for land use and biodiversity related LCA indicators and methods
--   Assess state of the art for LCA indicators and methods in use in the energy sector (optional ?)
--   Study related work by @Gong2025 in great detail
--   Understand if we need production numbers (e.g. MWh per year) and where to source from
--   Generate results (charts, maps)
--   Write the paper
-
-The project schedule is pictured in @fig-timeplan. Note that large tasks will be broken down into smaller ones. The live version of this plan can be found [here](https://docs.google.com/spreadsheets/d/1_QHeDnfFwLujNv_Hiss8qOS5SjA5-003iTmxzy1sRdA/edit?gid=1314943303#gid=1314943303).
+The project schedule is pictured in @fig-timeplan. The live version of this plan can be found [here](https://docs.google.com/spreadsheets/d/1_QHeDnfFwLujNv_Hiss8qOS5SjA5-003iTmxzy1sRdA/edit?gid=1314943303#gid=1314943303).
 
 ![Project schedule](img/timeplan.png){#fig-timeplan fig-align="center" width="100%"}
 
