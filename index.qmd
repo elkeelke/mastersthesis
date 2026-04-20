@@ -71,21 +71,32 @@ https://nexus.openlca.org/database/BAFU
 
 While land use from renewable energy infrastructure has been assessed using Threat-Abatement STAR (STAR$_T$) scores which quantifies how much species extinction risk could be reduced if biodiversity threats were removed, it has not been evaluated using LC-Impact.
 
+<!--
 Further gaps that might be worth looking at:
 
 -   Biodiversity impact for factors other than land use, e.g. 
     -   Reviewing the potential for including habitat fragmentation to improve life cycle impact assessments for land use impacts on biodiversity https://link.springer.com/article/10.1007/s11367-019-01647-1
-
+-->
 
 ## Materials and methods
 
 This section gives a brief overview of what can be expected in the thesis chapter on materials and methods.
 
-### LCA integration
+### LCA methodology
 
-The main metric used will be LC-Impact (TBD describe). 
+The main metric used will be LC-Impact by @verones2020lc. 
+
+Global Life Cycle Impact Assessment Method (GLAM)
 
 GLAM characterization factors from @scherer2023biodiversity include land use intensities and land fragmentation
+
+Scherer, L. et al. “Linking land use inventories to biodiversity impact assessment methods.” The International Journal of Life Cycle Assessment 26 (2021): 2315–2320.
+
+Chaudhary, A., Verones, F., de Baan, L., Hellweg, S. “Quantifying Land Use Impacts on Biodiversity: Combining Species–Area Models and Vulnerability Indicators.” Environmental Science & Technology 49 (2015): 9987–9995.
+
+Jeanneret, P. et al. “An expert system for integrating biodiversity into agricultural life-cycle assessment.” Ecological Indicators 46 (2014): 224–231.
+
+Nemecek, T. et al. “Swiss Agricultural Life Cycle Assessment: A method to assess the emissions and environmental impacts of agricultural systems and products.” The International Journal of Life Cycle Assessment 29 (2024): 433–455.
 
 <!--
 If possible, the results gained from using will be LC-Impact cross checked against the results from @Gong2025 which is based on spatial Threat-Abatement STAR (STAR$_T$) scores introduced by @mair2021metric.
@@ -97,6 +108,8 @@ Describe existing data can be used for this project:
 
 -   Biodiversity index per location: Ecoregions defined by @dinerstein2017ecoregion and available under a CC-BY-4.0 license online from @dinerstein2017ecoregion_resolve (as Shape file and in Earth Engine)
 -   Renewable Energy infrastructure locations: @Gong2025 used the S&P Global Market Intelligence (S&P MI) database which provides detailed data on over 100.000 global power plants which is a commercial product that might potentially be available for research purposes. Open source alternatives exists, e.g. the ResourceWatch Global Power Plant Database https://resourcewatch.org/data/explore/Powerwatch or the Global energy monitor https://globalenergymonitor.org/ and several research papers such as @kruitwagen2021global who identified nearly 70.000 PV plants or @zeng2025global who provide yearly data about PV plant locations from 2019 to 2025.
+
+
 
 <!--
 -   Use foundation models, which are large-scale AI models pre-trained on large unlabeled Earth Observation data (satellite imagery, radar, weather) using self-supervised learning. They provide embeddings which are numerical representations of each pixel that can be employed for any task that relies on similarities between land cover.
