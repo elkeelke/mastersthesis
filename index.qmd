@@ -1,5 +1,5 @@
 ---
-title: Biodiversity footprinting for the energy sector
+title: Biodiversity footprinting for the renewable energy sector
 subtitle: Master's thesis
 author: Elke Michlmayr
 format:
@@ -24,23 +24,51 @@ csl: apa-no-ampersand.csl
 
 ## Topic
 
-The working title of the master's thesis is: *Biodiversity footprinting for the energy sector: A high-level assessment of the climate impact of the energy sector globally and in Switzerland using a life cycle assessment (LCA) approach*
+The title of the master's thesis is: *Biodiversity footprinting for the renewable energy sector: A high-level assessment of renewable energy infrastructure impacts on biodiversity globally and in Switzerland using a life cycle assessment (LCA) approach*
 
-The work will be carried out within the LCA research group and focus on LCA but will include a remote sensing part as well as an energy related part.
+The work will be carried out within the LCA research group and focus on LCA, but will include a remote sensing part as well as an energy related part.
 
 ## Research aim and contribution
 
-LCA in the energy sector often focuses primarily on impacts related to climate change. This thesis aims to extend this to the biodiversity impacts associated with energy production infrastructure on national and global scales. The main indicator will be land use, together with the biodiversity level that is evaluated based on spatial data defining the biodiversity level found in each spot.
+LCA in the energy sector often focuses primarily on impacts related to climate change. This thesis aims to extend this to the biodiversity impacts associated with energy production infrastructure on national and global scales. 
 
-The contribution is to provide estimates for the biodiversity loss caused by renewable energy production plants using a novel approach for this use case, and to compare against existing results.
+## Gap analysis
+
+@Gong2025 provide an assessment of biodiversity impacts from renewable energy infrastructure. Their work aims to estimate the financial impact of the biodiversity loss from renewable energy infrastructure and is based in the Threat-Abatement STAR (STAR$_T$) scores, which quantify how much species extinction risk could be reduced if biodiversity threats were removed. This thesis focuses on assessing the full impacts on biodiversity based on the LCA methodologies GLAM and LC-Impact (see @sec-lca-methodology).
+
+<!--
+Further gaps that might be worth looking at:
+
+-   Biodiversity impact for factors other than land use, e.g. 
+    -   Reviewing the potential for including habitat fragmentation to improve life cycle impact assessments for land use impacts on biodiversity https://link.springer.com/article/10.1007/s11367-019-01647-1
+-->
 
 ## Research questions and hypotheses {#sec-research-questions}
 
-- What is the biodiversity level in the areas in which RE plants can be found in? Hypothesis: PV plants are more likely found in areas with low biodiversity, e.g. deserts or mountain plateaus
-- Which RE technology has the lowest biodiversity footprint? Hypothesis: Wind since it needs less space. Can we include threat to birds in the calculation somehow?
-- Can these methods be used for detecting areas for putting RE plants to minimize biodiversity loss? (lots of papers)
+The first research question is defined as follows: How do biodiversity footprints differ across energy production technologies when measured per unit of electricity produced, and which factors drive these differences? There are three hypotheses proposed: 
+
+1.   Wind energy has the lowest biodiversity impact per MWh generated because it has the lowest direct land use and is often sited in already modified landscapes. <!-- One key caveat is the localized impacts on birds and bats. -->
+
+1.   Solar energy has a moderate biodiversity impact per MWh generated since it requires larger continuous land areas than wind which are often located in lower-biodiversity regions such as deserts or mountain. plateaus <!-- Impact depends strongly on prior land use and habitat sensitivity -->
+
+1.   Hydro energy has the highest biodiversity impact per MWh generated since it causes significant land transformation and habitat fragmentation, alters river ecosystems and flow regimes, and is frequently located in biodiversity-rich regions such as river basins.
+
+The second research question is related to the question of how direct and indirect impacts compare. The hypotheses are:
+
+1.  Indirect biodiversity impacts from energy plant infrastructure and material production exceed direct impacts for most energy technologies driven by resource extraction, material processing, and manufacturing processes that occur across global supply chains.
+
+1.  The relative contribution of direct impacts varies significantly across energy technologies. Technologies with large physical footprints such as hydro energy are expected to have higher direct impacts compared to technologies with complex material inputs such as solar panels, which may have proportionally higher indirect impacts.
+
+1.  Direct biodiversity impacts are highly dependent on the regional ecological context and strongly dependent on the biodiversity that exists on the land that before it gets converted.
+
+The time plan outlined in @sec-timeplan indicates that it will be possible to address the two primary research questions within the scope of this project. If progress is faster than anticipated, a third research question will be explored: How do the biodiversity footprints for renewable energy and non-renewable energy production differ? The hypothesis for this question is that renewable energy production has a significantly smaller footprint per MWh generated compared to non-renewable technologies.
 
 <!--
+Can we include threat to birds in the calculation somehow?
+
+- Can these methods be used for detecting areas for putting RE plants to minimize biodiversity loss? (lots of papers)
+
+
 ### Methane
 
 Methane leaks (oil and gas facilities, landfill sites): https://data.carbonmapper.org 
@@ -65,17 +93,6 @@ https://arxiv.org/abs/2602.17372
 
 The 2025 version of the Swiss Federal Administration BAFU database contains about 11000 LCIs for products and processes in 176 categories that include sectors such as construction, mobility, energy, metals, chemicals, paper, agriculture, food, consumption, and waste management. Data are regularly updated to reflect technological developments.
 https://nexus.openlca.org/database/BAFU
--->
-
-## Gap analysis
-
-@Gong2025 provide an assessment of biodiversity impacts from renewable energy infrastructure. Their work aims to estimate the financial impact of the biodiversity loss from renewable energy infrastructure and is based in the Threat-Abatement STAR (STAR$_T$) scores, which quantify how much species extinction risk could be reduced if biodiversity threats were removed. This thesis focuses on assessing the full impacts on biodiversity based on the LCA methodologies GLAM and LC-Impact (see @sec-lca-methodology).
-
-<!--
-Further gaps that might be worth looking at:
-
--   Biodiversity impact for factors other than land use, e.g. 
-    -   Reviewing the potential for including habitat fragmentation to improve life cycle impact assessments for land use impacts on biodiversity https://link.springer.com/article/10.1007/s11367-019-01647-1
 -->
 
 ## Materials and methods
@@ -111,7 +128,7 @@ The following outcome is expected:
 
 Non-goal: Developing a full data extraction framework or a scalable results interface is beyond the scope of this work (30 ECTS).
 
-## Work plan and project schedule
+## Work plan and project schedule {#sec-timeplan}
 
 The project schedule is pictured in @fig-timeplan. The live version of this plan can be found [here](https://docs.google.com/spreadsheets/d/1_QHeDnfFwLujNv_Hiss8qOS5SjA5-003iTmxzy1sRdA/edit?gid=1314943303#gid=1314943303).
 
