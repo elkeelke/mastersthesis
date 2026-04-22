@@ -88,7 +88,7 @@ The main metric used will be LC-Impact by @verones2020lc.
 
 Global Life Cycle Impact Assessment Method (GLAM)
 
-GLAM characterization factors from @scherer2023biodiversity include land use intensities and land fragmentation
+One building block will be the work by @scherer2023biodiversity which provides a set of characterization factors (CFs) for assessing the impact of land use on terrestrial biodiversity within the Global Life Cycle Impact Assessment Method (GLAM), considering both land use intensities and habitat fragmentation at a global scale.
 
 Scherer, L. et al. “Linking land use inventories to biodiversity impact assessment methods.” The International Journal of Life Cycle Assessment 26 (2021): 2315–2320.
 
