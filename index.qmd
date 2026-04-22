@@ -69,7 +69,7 @@ https://nexus.openlca.org/database/BAFU
 
 ## Gap analysis
 
-While land use from renewable energy infrastructure has been assessed using Threat-Abatement STAR (STAR$_T$) scores which quantifies how much species extinction risk could be reduced if biodiversity threats were removed, it has not been evaluated using LC-Impact.
+@Gong2025 provide an assessment of biodiversity impacts from renewable energy infrastructure. Their work aims to estimate the financial impact of the biodiversity loss from renewable energy infrastructure and is based in the Threat-Abatement STAR (STAR$_T$) scores, which quantify how much species extinction risk could be reduced if biodiversity threats were removed. This thesis focuses on assessing the full impacts on biodiversity based on the LCA methodologies GLAM and LC-Impact (see @sec-lca-methodology).
 
 <!--
 Further gaps that might be worth looking at:
@@ -82,21 +82,9 @@ Further gaps that might be worth looking at:
 
 This section gives a brief overview of what can be expected in the thesis chapter on materials and methods.
 
-### LCA methodology
+### LCA methodology {#sec-lca-methodology} 
 
-The main metric used will be LC-Impact by @verones2020lc. 
-
-Global Life Cycle Impact Assessment Method (GLAM)
-
-One building block will be the work by @scherer2023biodiversity which provides a set of characterization factors (CFs) for assessing the impact of land use on terrestrial biodiversity within the Global Life Cycle Impact Assessment Method (GLAM), considering both land use intensities and habitat fragmentation at a global scale.
-
-Scherer, L. et al. “Linking land use inventories to biodiversity impact assessment methods.” The International Journal of Life Cycle Assessment 26 (2021): 2315–2320.
-
-Chaudhary, A., Verones, F., de Baan, L., Hellweg, S. “Quantifying Land Use Impacts on Biodiversity: Combining Species–Area Models and Vulnerability Indicators.” Environmental Science & Technology 49 (2015): 9987–9995.
-
-Jeanneret, P. et al. “An expert system for integrating biodiversity into agricultural life-cycle assessment.” Ecological Indicators 46 (2014): 224–231.
-
-Nemecek, T. et al. “Swiss Agricultural Life Cycle Assessment: A method to assess the emissions and environmental impacts of agricultural systems and products.” The International Journal of Life Cycle Assessment 29 (2024): 433–455.
+There will be two methodologies employed. One main building block will be the work by @scherer2023biodiversity which provides a set of characterization factors for assessing the impact of land use on terrestrial biodiversity as part of the Global Life Cycle Impact Assessment Method (GLAM). This approach considers land use intensities and habitat fragmentation at a global scale. The other one will be be LC-Impact created by @verones2020lc, which is a method that considers climate change, photochemical ozone formation, terrestrial acidification, terrestrial ecotoxicity, and land stress for terrestrial ecosystems. To achieve the most accurate results for land stress, the LC-IMPACT factors can be overwritten with the more recent and detailed GLAM characterisation factors for land use.
 
 <!--
 If possible, the results gained from using will be LC-Impact cross checked against the results from @Gong2025 which is based on spatial Threat-Abatement STAR (STAR$_T$) scores introduced by @mair2021metric.
