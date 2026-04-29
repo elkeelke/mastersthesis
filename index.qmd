@@ -47,13 +47,13 @@ Further gaps that might be worth looking at:
 
 The first research question is defined as follows: How do biodiversity footprints differ across energy production technologies when measured per unit of electricity produced, and which factors drive these differences? There are three hypotheses proposed: 
 
-1.   Wind energy has the lowest biodiversity impact per MWh generated because it has the lowest direct land use and is often sited in already modified landscapes. <!-- One key caveat is the localized impacts on birds and bats. -->
+1.   Wind energy has the lowest biodiversity impact per megawatt hour (MWh) produced because it has the lowest direct land use and is often sited in already modified landscapes. <!-- One key caveat is the localized impacts on birds and bats. -->
 
-1.   Solar energy has a moderate biodiversity impact per MWh generated since it requires larger continuous land areas than wind which are often located in lower-biodiversity regions such as deserts or mountain. plateaus <!-- Impact depends strongly on prior land use and habitat sensitivity -->
+1.   Solar energy has a moderate biodiversity impact per MWh produced since it requires larger continuous land areas than wind which are often located in lower-biodiversity regions such as deserts or mountain plateaus. <!-- Impact depends strongly on prior land use and habitat sensitivity -->
 
-1.   Hydro energy has the highest biodiversity impact per MWh generated since it causes significant land transformation and habitat fragmentation, alters river ecosystems and flow regimes, and is frequently located in biodiversity-rich regions such as river basins.
+1.   Hydro energy has the highest biodiversity impact per MWh produced since it causes significant land transformation and habitat fragmentation, alters river ecosystems and flow regimes, and is frequently located in biodiversity-rich regions such as river basins.
 
-The second research question is related to the question of how direct and indirect impacts compare. The hypotheses are:
+The second research question is related to the question of how direct and indirect impacts compare. The functional unit again is one MWh produced by the energy plant. The hypotheses are:
 
 1.  Indirect biodiversity impacts from energy plant infrastructure and material production exceed direct impacts for most energy technologies driven by resource extraction, material processing, and manufacturing processes that occur across global supply chains.
 
@@ -61,7 +61,7 @@ The second research question is related to the question of how direct and indire
 
 1.  Direct biodiversity impacts are highly dependent on the regional ecological context and strongly dependent on the biodiversity that exists on the land that before it gets converted.
 
-The time plan outlined in @sec-timeplan indicates that it will be possible to address the two primary research questions within the scope of this project. If progress is faster than anticipated, a third research question will be explored: How do the biodiversity footprints for renewable energy and non-renewable energy production differ? The hypothesis for this question is that renewable energy production has a significantly smaller footprint per MWh generated compared to non-renewable technologies.
+The time plan outlined in @sec-timeplan indicates that it will be possible to address the two primary research questions within the scope of this project. If progress is faster than anticipated, a third research question will be explored: How do the biodiversity footprints for renewable energy and non-renewable energy production differ? The hypothesis for this question is that renewable energy production has a significantly smaller footprint per MWh produced compared to non-renewable technologies.
 
 <!--
 Can we include threat to birds in the calculation somehow?
@@ -107,7 +107,7 @@ There will be two methodologies employed. One main building block will be the wo
 If possible, the results gained from using will be LC-Impact cross checked against the results from @Gong2025 which is based on spatial Threat-Abatement STAR (STAR$_T$) scores introduced by @mair2021metric.
 -->
 
-### Spatial and remote sensing data
+### Data sets
 
 Describe existing data can be used for this project:
 
@@ -122,15 +122,17 @@ Describe existing data can be used for this project:
 
 ## Expected results
 
-The following outcome is expected:
+The expected outcome is a thesis in scientific paper format with approximately 15 pages. The paper will contain analysis results that answer the research question and show the total impact on biodiversity from renewable energy infrastructure, a comparison between direct and indirect impacts, and breakdowns for solar, wind, and hydro power.
 
--   Thesis in scientific paper format with approximately 15 pages, will be submitted for publication
+The following results are optional:
 
-Non-goal: Developing a full data extraction framework or a scalable results interface is beyond the scope of this work (30 ECTS).
+* Comparison of renewable to non-renewable energy production biodiversity footprints (see research question 3)
+* Paper publication
+* Open source implementation of LC-IMPACT on Github (or similar) supporting regional analysis
 
 ## Work plan and project schedule {#sec-timeplan}
 
-The project schedule is pictured in @fig-timeplan. The live version of this plan can be found [here](https://docs.google.com/spreadsheets/d/1_QHeDnfFwLujNv_Hiss8qOS5SjA5-003iTmxzy1sRdA/edit?gid=1314943303#gid=1314943303).
+The projected project schedule is pictured in @fig-timeplan. Note that the task are expected to overlap much more than shown in the selected dates. The initial goal of the plan was to work out how many of the research questions can be tackled in the given time frame. The time plan will be updated to track progress during the project. The latest version of this plan can always be found [here](https://docs.google.com/spreadsheets/d/1_QHeDnfFwLujNv_Hiss8qOS5SjA5-003iTmxzy1sRdA/edit?gid=1314943303#gid=1314943303).
 
 ![Project schedule](img/timeplan.png){#fig-timeplan fig-align="center" width="100%"}
 
