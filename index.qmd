@@ -34,7 +34,7 @@ LCA in the energy sector often focuses primarily on impacts related to climate c
 
 ## Gap analysis
 
-The literature study performed in @sec-literature-study revealed that established methods for biodiversity LCA exist. The methodology described in @sec-lca-methodology will be applied. While an assessment of biodiversity impacts from renewable energy infrastructure has already been performed by @Gong2025, their work has a different focus because it aims to estimate the financial impact of the biodiversity loss from renewable energy infrastructure. In this work, the biodiversity loss is estimated using the Threat-Abatement STAR (STAR$_T$) scores, which quantify how much species extinction risk could be reduced if biodiversity threats were removed, instead of using LCA methodology which is what will be performed in the thesis. 
+The literature review presented in @sec-literature-study indicates that established methods for biodiversity LCA are available. However, their application to renewable energy systems remains limited in scope and consistency. Recent work by Gong et al. (2025) addresses biodiversity impacts from renewable energy infrastructure, but with a different objective and methodological approach. Their study focuses on quantifying the financial implications of biodiversity loss and employs Threat-Abatement STAR (STAR$_T$) scores, which estimate the potential reduction in species extinction risk through threat mitigation. Although this provides valuable insights into conservation prioritization, it does not perform an LCA. Consequently, a gap remains in applying established biodiversity LCA methodologies to assess the impacts of renewable energy infrastructure.
 
 <!--
 Further gaps that might be worth looking at:
