@@ -30,11 +30,11 @@ The work will be carried out within the LCA research group and focus on LCA, but
 
 ## Research aim and contribution
 
-LCA in the energy sector often focuses primarily on impacts related to climate change. This thesis aims to extend this to the biodiversity impacts associated with energy production infrastructure on national and global scales. 
+LCA in the energy sector often focuses primarily on impacts related to climate change. This thesis seeks to broaden that by incorporating the biodiversity impacts associated with renewable energy production infrastructure on national and global scales. 
 
 ## Gap analysis
 
-@Gong2025 provide an assessment of biodiversity impacts from renewable energy infrastructure. Their work aims to estimate the financial impact of the biodiversity loss from renewable energy infrastructure and is based in the Threat-Abatement STAR (STAR$_T$) scores, which quantify how much species extinction risk could be reduced if biodiversity threats were removed. This thesis focuses on assessing the full impacts on biodiversity based on the LCA methodologies GLAM and LC-Impact (see @sec-lca-methodology).
+The literature study performed in @sec-literature-study revealed that established methods for biodiversity LCA exist. The methodology described in @sec-lca-methodology will be applied. While an assessment of biodiversity impacts from renewable energy infrastructure has already been performed by @Gong2025, their work has a different focus because it aims to estimate the financial impact of the biodiversity loss from renewable energy infrastructure. In this work, the biodiversity loss is estimated using the Threat-Abatement STAR (STAR$_T$) scores, which quantify how much species extinction risk could be reduced if biodiversity threats were removed, instead of using LCA methodology which is what will be performed in the thesis. 
 
 <!--
 Further gaps that might be worth looking at:
