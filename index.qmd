@@ -109,12 +109,10 @@ If possible, the results gained from using will be LC-Impact cross checked again
 
 ### Data sets
 
-Describe existing data can be used for this project:
+In addition to the data already described in @sec-lca-methodology the following data sets are also required:
 
--   Biodiversity index per location: Ecoregions defined by @dinerstein2017ecoregion and available under a CC-BY-4.0 license online from @dinerstein2017ecoregion_resolve (as Shape file and in Earth Engine)
--   Renewable Energy infrastructure locations: @Gong2025 used the S&P Global Market Intelligence (S&P MI) database which provides detailed data on over 100.000 global power plants which is a commercial product that might potentially be available for research purposes. Open source alternatives exists, e.g. the ResourceWatch Global Power Plant Database https://resourcewatch.org/data/explore/Powerwatch or the Global energy monitor https://globalenergymonitor.org/ and several research papers such as @kruitwagen2021global who identified nearly 70.000 PV plants or @zeng2025global who provide yearly data about PV plant locations from 2019 to 2025.
-
-
+-   Several data sets for energy infrastructure locations exist. As tracked in task 25 in @fig-timeplan, the relevant selection criteria will be defined and the best data source will be selected according to these criteria.  <!-- Renewable Energy infrastructure locations: @Gong2025 used the S&P Global Market Intelligence (S&P MI) database which provides detailed data on over 100.000 global power plants which is a commercial product that might potentially be available for research purposes. Open source alternatives exists, e.g. the ResourceWatch Global Power Plant Database https://resourcewatch.org/data/explore/Powerwatch or the Global energy monitor https://globalenergymonitor.org/ and several research papers such as @kruitwagen2021global who identified nearly 70.000 PV plants or @zeng2025global who provide yearly data about PV plant locations from 2019 to 2025. -->
+-   The Ecoregions dataset created by @dinerstein2017ecoregion and available under a CC-BY-4.0 license online from @dinerstein2017ecoregion_resolve will be used to assign ecological classifications to geographic coordinates. <!--(as Shape file and in Earth Engine) -->
 
 <!--
 -   Use foundation models, which are large-scale AI models pre-trained on large unlabeled Earth Observation data (satellite imagery, radar, weather) using self-supervised learning. They provide embeddings which are numerical representations of each pixel that can be employed for any task that relies on similarities between land cover.
