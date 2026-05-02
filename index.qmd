@@ -26,8 +26,6 @@ csl: apa-no-ampersand.csl
 
 The title of the master's thesis is: *Biodiversity footprinting for the renewable energy sector: A high-level assessment of renewable energy infrastructure impacts on biodiversity globally and in Switzerland using a life cycle assessment (LCA) approach*
 
-The work will be carried out within the LCA research group and focus on LCA, but will include a remote sensing part as well as an energy related part.
-
 ## Research aim and contribution
 
 LCA in the energy sector often focuses primarily on impacts related to climate change. This thesis seeks to broaden that by incorporating the biodiversity impacts associated with renewable energy production infrastructure on national and global scales. 
@@ -59,9 +57,11 @@ The second research question is related to the question of how direct and indire
 
 1.  The relative contribution of direct impacts varies significantly across energy technologies. Technologies with large physical footprints such as hydro energy are expected to have higher direct impacts compared to technologies with complex material inputs such as solar panels, which may have proportionally higher indirect impacts.
 
-1.  Direct biodiversity impacts are highly dependent on the regional ecological context and strongly dependent on the biodiversity that exists on the land that before it gets converted.
+1.  Direct biodiversity impacts are highly dependent on the regional ecological context and strongly dependent on the biodiversity that exists on the land before it gets converted.
 
-The time plan outlined in @sec-timeplan indicates that it will be possible to address the two primary research questions within the scope of this project. If progress is faster than anticipated, a third research question will be explored: How do the biodiversity footprints for renewable energy and non-renewable energy production differ? The hypothesis for this question is that renewable energy production has a significantly smaller footprint per MWh produced compared to non-renewable technologies.
+The time plan outlined in @sec-timeplan indicates that it will be possible to address the two primary research questions within the scope of this project. 
+
+If progress is faster than anticipated, a third research question will be explored: How do the biodiversity footprints of renewable and non-renewable energy production differ? The hypothesis is that renewable energy production has a significantly smaller footprint per MWh produced compared to non-renewable technologies. To ensure a fair comparison, emissions and land use associated with feedstock (such as coal production areas) for non-renewable energy production will be included, in addition to the land use of the plant itself.
 
 <!--
 Can we include threat to birds in the calculation somehow?
@@ -101,17 +101,17 @@ This section gives a brief overview of what can be expected in the thesis chapte
 
 ### LCA methodology {#sec-lca-methodology} 
 
-There will be two methodologies employed. One main building block will be the work by @scherer2023biodiversity which provides a set of characterization factors for assessing the impact of land use on terrestrial biodiversity as part of the Global Life Cycle Impact Assessment Method (GLAM). This approach considers land use intensities and habitat fragmentation at a global scale. The other one will be be LC-Impact created by @verones2020lc, which is a method that considers climate change, photochemical ozone formation, terrestrial acidification, terrestrial ecotoxicity, and land stress for terrestrial ecosystems. To achieve the most accurate results for land stress, the LC-IMPACT factors can be overwritten with the more recent and detailed GLAM characterisation factors for land use.
+There will be two methodologies employed. One main building block will be the work by @scherer2023biodiversity which provides a set of characterization factors for assessing the impact of land use on terrestrial biodiversity as part of the Global Life Cycle Impact Assessment Method (GLAM). This approach considers land use intensities and habitat fragmentation at a global scale. The other one will be LC-Impact created by @verones2020lc, which is a method that considers climate change, photochemical ozone formation, terrestrial acidification, terrestrial ecotoxicity, and land stress for terrestrial ecosystems. To achieve the most accurate results for land stress, the LC-IMPACT factors can be overwritten with the more recent and detailed GLAM characterization factors for land use.
 
 <!--
 If possible, the results gained from using will be LC-Impact cross checked against the results from @Gong2025 which is based on spatial Threat-Abatement STAR (STAR$_T$) scores introduced by @mair2021metric.
 -->
 
-### Data sets
+### Datasets
 
-In addition to the data already described in @sec-lca-methodology the following data sets are also required:
+In addition to the data already described in @sec-lca-methodology the following datasets are also required:
 
--   Several data sets for energy infrastructure locations exist. As tracked in task 25 in @fig-timeplan, the relevant selection criteria will be defined and the best data source will be selected according to these criteria.  <!-- Renewable Energy infrastructure locations: @Gong2025 used the S&P Global Market Intelligence (S&P MI) database which provides detailed data on over 100.000 global power plants which is a commercial product that might potentially be available for research purposes. Open source alternatives exists, e.g. the ResourceWatch Global Power Plant Database https://resourcewatch.org/data/explore/Powerwatch or the Global energy monitor https://globalenergymonitor.org/ and several research papers such as @kruitwagen2021global who identified nearly 70.000 PV plants or @zeng2025global who provide yearly data about PV plant locations from 2019 to 2025. -->
+-   Several datasets for energy infrastructure locations exist. As tracked in task 25 in @fig-timeplan, the relevant selection criteria will be defined and the best data source will be selected according to these criteria.  <!-- Renewable Energy infrastructure locations: @Gong2025 used the S&P Global Market Intelligence (S&P MI) database which provides detailed data on over 100.000 global power plants which is a commercial product that might potentially be available for research purposes. Open source alternatives exists, e.g. the ResourceWatch Global Power Plant Database https://resourcewatch.org/data/explore/Powerwatch or the Global energy monitor https://globalenergymonitor.org/ and several research papers such as @kruitwagen2021global who identified nearly 70.000 PV plants or @zeng2025global who provide yearly data about PV plant locations from 2019 to 2025. -->
 -   The Ecoregions dataset created by @dinerstein2017ecoregion and available under a CC-BY-4.0 license online from @dinerstein2017ecoregion_resolve will be used to assign ecological classifications to geographic coordinates. <!--(as Shape file and in Earth Engine) -->
 
 <!--
@@ -120,7 +120,7 @@ In addition to the data already described in @sec-lca-methodology the following 
 
 ## Expected results
 
-The expected outcome is a thesis in scientific paper format with approximately 15 pages. The paper will contain analysis results that answer the research question and show the total impact on biodiversity from renewable energy infrastructure, a comparison between direct and indirect impacts, and breakdowns for solar, wind, and hydro power.
+The expected outcome is a thesis in scientific paper format with approximately 15 pages. The paper will contain analysis results that answer the research question and show the total impact on biodiversity from renewable energy infrastructure, a comparison between direct and indirect impacts, and breakdowns for solar, wind, and hydro power as well as breakdowns on the country level, in particular for Switzerland.
 
 The following results are optional:
 
@@ -130,17 +130,15 @@ The following results are optional:
 
 ## Work plan and project schedule {#sec-timeplan}
 
-The projected project schedule is pictured in @fig-timeplan. Note that the task are expected to overlap much more than shown in the selected dates. The initial goal of the plan was to work out how many of the research questions can be tackled in the given time frame. The time plan will be updated to track progress during the project. The latest version of this plan can always be found [here](https://docs.google.com/spreadsheets/d/1_QHeDnfFwLujNv_Hiss8qOS5SjA5-003iTmxzy1sRdA/edit?gid=1314943303#gid=1314943303).
-
 ![Project schedule](img/timeplan.png){#fig-timeplan fig-align="center" width="100%"}
+
+The project schedule with planned tasks and their start and end dates is shown in @fig-timeplan. Note that the tasks are expected to overlap more than shown in the selected dates. The initial purpose of the plan was to work out how many of the research questions can be tackled in the given time frame. During project execution, the time plan will be used for tracking progress and will be updated during the project. The latest version of this plan is available [here](https://docs.google.com/spreadsheets/d/1_QHeDnfFwLujNv_Hiss8qOS5SjA5-003iTmxzy1sRdA/edit?gid=1314943303#gid=1314943303).
 
 ## Risk assessment
 
-<!--
-On a general level, there is a risk that the work will be taken out of context and used as an argument against renewable energy. This can be avoided by stating highly visible in the abstract of the work that renewable energy is critical for climate mitigation.
--->
+There were no major risks identified that could stall project progress. Tasks that might not be possible to complete within the project time frame were marked as optional. The most challenging aspect of the project will be finding a reliable method to approximate renewable energy plant sizes, as the accuracy of this estimation will greatly affect the results of the biodiversity LCA.
 
-No risks identified.
+On a broader level, there is a risk that the work could be taken out of context and used as an argument against renewable energy. This can be mitigated by clearly stating in the abstract that renewable energy is critical for climate mitigation, as well as by the findings related to the third research question.
 
 ## Budget plan
 
@@ -148,6 +146,8 @@ No budgetary costs required.
 
 
 ## Literature study: current state of research {#sec-literature-study}
+
+TBD: Add Overview
 
 ### Methodologies for biodiversity in LCA
 
